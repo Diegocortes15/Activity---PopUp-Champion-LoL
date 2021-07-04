@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Modal window</title>
+</head>
+
+<body>
+  <h1>Champion LoL PopUp WallPapers</h1>
+  <button class="show-modal ekko">
+    <img loading="lazy" class="champion__image" src="img/champions/ekko.jpg" alt="ekko">
+    <p class="champion__name">Ekko</p>
+  </button>
+  <button class="show-modal master-yi">
+    <img loading="lazy" class="champion__image" src="img/champions/master-yi.jpg" alt="ekko">
+    <p class="champion__name">Master Yi</p>
+  </button>
+  <button class="show-modal ashe">
+    <img loading="lazy" class="champion__image" src="img/champions/ashe.jpg" alt="ekko">
+    <p class="champion__name">Ashe</p>
+  </button>
+
+  <div class="modal modal--ekko hidden">
+    <button class="close-modal">&times;</button>
+  </div>
+
+  <div class="modal modal--master-yi hidden">
+    <button class="close-modal">&times;</button>
+  </div>
+
+  <div class="modal modal--ashe hidden">
+    <button class="close-modal">&times;</button>
+  </div>
+
+  <div class="overlay hidden"></div>
+
+  <img loading="lazy" src="img/logo-lol.png" alt="League Of Legends" class="logo-lol">
+
+  <script src="script.js"></script>
+</body>
+
+</html>
