@@ -1,4 +1,4 @@
-# Activity---PopUp-Champion-LoL
+# Activity PopUp Champion LoL
 
 Click link below
 
