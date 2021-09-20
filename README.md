@@ -1,5 +1,5 @@
 # Activity PopUp Champion LoL
 
-Click link below
+Click the link below
 
 [PopUp Champion LoL](https://champion-lol-diego.netlify.app)
